@@ -1,0 +1,16 @@
+.storybook
+coverage
+node_modules
+spec
+src
+
+.git
+.github
+.gitignore
+.editorconfig
+.eslintrc.js
+package-lock.json
+README.md
+tsconfig.json
+yarn.lock
+yarn-error.log
