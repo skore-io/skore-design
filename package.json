@@ -10,7 +10,7 @@
 
   "scripts": {
     "sb": "start-storybook -p 6006 --no-manager-cache",
-    "sb-build": "build-storybook",
+    "sb-build": "build-storybook -o ./design",
     "build": "tsc -p .",
     "format": "prettier --write src/**/*.ts{,x}",
     "lint": "tsc --noEmit && eslint src/**/*.ts{,x}",
