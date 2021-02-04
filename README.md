@@ -29,11 +29,11 @@ yarn install
 You can then start the application running:
 
 ```
-npm run sb
+npm run start
 ```
 or
 ```
-yarn sb
+yarn start
 ```
 
 All set. Now Access `http://localhost:6006` in your browser.
@@ -53,43 +53,9 @@ yarn lint
 ### Testing
 
 ```
-npm run jest
+npm run test
 ```
 or
 ```
-yarn jest
+yarn test
 ```
-
-
-# Deploying the Component Library and Storybook
-
-### Storybook
-...to be done
-
-### Library
-(Will be changed in a near future)
-
-1) First #QA your changes
-
-2) Change the version on package.json
-
-3) Build the library running:
-```
-npm run build
-```
-or
-```
-yarn build
-```
-
-4) Log in to NPM with valid credentials:
-```
-npm login
-```
-
-5) Time to publish:
-```
-npm publish
-```
-
-Done. Now just install the package in your react project and use the components.

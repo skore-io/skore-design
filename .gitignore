@@ -1,12 +1,18 @@
+# dependencies
 node_modules
-build
-design
-dist
-coverage
-
-.npm
-.env
-
 package-lock.json
 yarn.lock
+
+# production
+design
+dist
+
+# testing
+coverage
+
+#env
+.env
+
+# misc
+.npm
 yarn-error.log

@@ -4,12 +4,14 @@ node_modules
 spec
 src
 design
-
 .git
 .github
 .gitignore
 .editorconfig
 .eslintrc.js
+.release-it.js
+jest.config.js
+tsconfig.json
 package-lock.json
 README.md
 tsconfig.json

@@ -8,13 +8,14 @@
   "license": "MIT",
   "main": "dist/index.js",
   "scripts": {
-    "storybook": "start-storybook -p 6006 --no-manager-cache",
-    "format": "prettier --write src/**/*.ts{,x}",
+    "start": "start-storybook -p 6006 --no-manager-cache",
     "lint": "tsc --noEmit && eslint src/**/*.ts{,x}",
     "test": "jest",
-    "storybookb-build": "build-storybook -o ./design",
+    "format": "prettier --write src/**/*.ts{,x}",
+    "build-storybook": "build-storybook -o ./design",
     "build": "tsc -p .",
-    "deploy": "gh-pages -d design"
+    "deploy-storybook": "gh-pages -d design",
+    "release": "release-it"
   },
   "devDependencies": {
     "@babel/core": "^7.12.10",
@@ -53,6 +54,7 @@
     "react": "^17.0.1",
     "react-docgen-typescript-loader": "^3.7.2",
     "react-dom": "^17.0.1",
+    "release-it": "^14.3.0",
     "styled-components": "^5.2.1",
     "ts-jest": "^26.4.4",
     "ts-loader": "^8.0.14",

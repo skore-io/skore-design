@@ -10,7 +10,7 @@ module.exports = {
     "**/*.{ts,tsx}",
     "!**/node_modules/**",
     "!**/dist/**",
-    "!**/.storybook/**"
+    "!**/.storybook/**",
   ],
   moduleNameMapper: {
     "\\.(svg|jpg|png|css)$": "<rootDir>/spec/empty-module.js",
