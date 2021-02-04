@@ -2,18 +2,19 @@
   "name": "skore-design",
   "version": "0.1.0-alpha",
   "description": "Design system and component library for Skore applications.",
-  "homepage": "https://skore.design",
+  "homepage": "https://skore-io.github.io/skore-design/",
   "author": "Skore <skore@skore-io>",
   "repository": "https://github.com/skore-io/skore-design",
   "license": "MIT",
   "main": "dist/index.js",
   "scripts": {
-    "sb": "start-storybook -p 6006 --no-manager-cache",
-    "sb-build": "build-storybook -o ./design",
-    "build": "tsc -p .",
+    "storybook": "start-storybook -p 6006 --no-manager-cache",
     "format": "prettier --write src/**/*.ts{,x}",
     "lint": "tsc --noEmit && eslint src/**/*.ts{,x}",
-    "test": "jest"
+    "test": "jest",
+    "storybookb-build": "build-storybook -o ./design",
+    "build": "tsc -p .",
+    "deploy": "gh-pages -d design"
   },
   "devDependencies": {
     "@babel/core": "^7.12.10",
