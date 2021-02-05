@@ -50,7 +50,7 @@ jobs:
 
       - name: Publish
         run: |
-          npm run release
+          npx release-it
           npm run deploy-storybook
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
