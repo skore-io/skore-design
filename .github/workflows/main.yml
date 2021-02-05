@@ -47,10 +47,3 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Rebase develop
-        run: |
-          git reset --hard
-          git checkout develop
-          git pull --rebase origin master
-          git push
