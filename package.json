@@ -11,7 +11,10 @@
     "start": "start-storybook -p 6006 --no-manager-cache",
     "lint": "tsc --noEmit && eslint src/**/*.ts{,x}",
     "test": "jest",
-    "format": "prettier --write src/**/*.ts{,x}"
+    "format": "prettier --write src/**/*.ts{,x}",
+    "build-storybook": "build-storybook -o ./design",
+    "build": "tsc -p .",
+    "deploy-storybook": "gh-pages -d design"
   },
   "devDependencies": {
     "@babel/core": "^7.12.10",
