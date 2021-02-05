@@ -40,14 +40,5 @@ module.exports = {
     'react/jsx-props-no-spreading': 'off',
     'react/prop-types': 0,
     // '@typescript-eslint/no-explicit-any': 'off',
-    'padding-line-between-statements': [
-      'error',
-      { 'blankLine': 'always', 'prev': ['const', 'let', 'var'], 'next': '*' },
-      { 'blankLine': 'always', 'prev': ['case', 'default'], 'next': '*' },
-      { 'blankLine': 'always', 'prev': 'export', 'next': '*' },
-      { 'blankLine': 'always', 'prev': 'import', 'next': ['export', 'interface', 'const', 'function'] },
-      { 'blankLine': 'always', 'prev': ['function'], 'next': '*' },
-      { 'blankLine': 'always', 'prev': ['return'], 'next': '*' },
-    ]
   },
 }
