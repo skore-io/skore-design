@@ -68,7 +68,6 @@
     "styled-components": "^5.2.1"
   },
   "publishConfig": {
-    "access": "public",
-    "registry": "https://npm.pkg.github.com/"
+    "access": "public"
   }
 }
