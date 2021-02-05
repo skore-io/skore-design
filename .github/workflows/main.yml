@@ -45,13 +45,13 @@ jobs:
 
       - name: Build
         run: |
-          npm run build
-          npm run build-storybook
+          npm run tsc -p .
+          npm run build-storybook -o ./design
 
       - name: Publish
         run: |
           npx release-it
-          npm run deploy-storybook
+          npm run gh-pages -d design
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
