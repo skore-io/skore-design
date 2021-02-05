@@ -3,8 +3,11 @@
   "version": "0.0.0",
   "description": "Design system and component library for Skore applications.",
   "homepage": "https://skore-io.github.io/skore-design/",
-  "author": "Skore <skore@skore-io>",
-  "repository": "https://github.com/skore-io/skore-design",
+  "author": "Skore IO",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skore-io/skore-design.git"
+  },
   "license": "MIT",
   "main": "dist/index.js",
   "scripts": {
