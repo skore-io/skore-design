@@ -55,6 +55,7 @@ const Container = styled.li<ToggleButtonProps>`
  */
 export const ToggleButton: React.FC<ToggleButtonProps> = (props) => {
   const { label } = props;
+
   return (
     <Styler>
       <Container {...props}>{label}</Container>

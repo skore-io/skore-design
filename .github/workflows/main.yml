@@ -44,6 +44,9 @@ jobs:
         run: |
           npm run release
           npm run deploy-storybook
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Rebase develop
         run: |
