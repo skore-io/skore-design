@@ -16,8 +16,9 @@ tsconfig.json
 package-lock.json
 README.md
 tsconfig.json
+tsconfig.production.json
 yarn.lock
 yarn-error.log
 
 # extensions
-.*.tgz
+*.tgz
