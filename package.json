@@ -18,7 +18,7 @@
     "build-storybook": "build-storybook -o ./design",
     "build": "tsc -p tsconfig.prod.json",
     "deploy-storybook": "gh-pages -d design",
-    "local-link": "rmdir /Q /S dist && yarn build && cd ./dist && cp ../package.json . && yarn link"
+    "local-link": "rmdir /Q /S dist && yarn build && yarn link react && cd ./dist && cp ../package.json . && yarn link"
   },
   "devDependencies": {
     "@babel/core": "^7.12.10",
