@@ -1,3 +1,10 @@
+### 0.0.3 (2021-02-09)
+
+
+### Bug Fixes 🐛
+
+* **deploy:** ts deploy configs, readme update and setup for local linking start ([bc9ce05](https://github.com/skore-io/skore-design/commit/bc9ce05a01b524af0ba3db21fccc688e30e60410))
+
 ### 0.0.2 (2021-02-08)
 
 
