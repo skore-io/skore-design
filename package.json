@@ -9,7 +9,7 @@
     "url": "git+https://github.com/skore-io/skore-design.git"
   },
   "license": "MIT",
-  "main": "lib/index.js",
+  "main": "dist/index.js",
   "scripts": {
     "start": "start-storybook -p 6006 --no-manager-cache",
     "lint": "tsc --noEmit && eslint src/**/*.ts{,x}",
