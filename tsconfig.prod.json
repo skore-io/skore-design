@@ -1,0 +1,14 @@
+{
+  "extends": "./tsconfig",
+  "exclude": [
+    "**/*.test.tsx",
+    "**/*.mock.tsx",
+    "**/*.snap",
+    "./src/stories",
+    "./dist",
+    "./spec",
+    "./design",
+    "./coverage",
+    "./jest.config.js"
+  ]
+}

@@ -9,15 +9,16 @@
     "url": "git+https://github.com/skore-io/skore-design.git"
   },
   "license": "MIT",
-  "main": "dist/index.js",
+  "main": "lib/index.js",
   "scripts": {
     "start": "start-storybook -p 6006 --no-manager-cache",
     "lint": "tsc --noEmit && eslint src/**/*.ts{,x}",
     "test": "jest",
     "format": "prettier --write src/**/*.ts{,x}",
     "build-storybook": "build-storybook -o ./design",
-    "build": "tsc -p .",
-    "deploy-storybook": "gh-pages -d design"
+    "build": "tsc -p tsconfig.prod.json",
+    "deploy-storybook": "gh-pages -d design",
+    "local-link": "rmdir /Q /S dist && yarn build && cd ./dist && cp ../package.json . && yarn link"
   },
   "devDependencies": {
     "@babel/core": "^7.12.10",
@@ -62,12 +63,6 @@
     "ts-jest": "^26.4.4",
     "ts-loader": "^8.0.14",
     "typescript": "^4.1.3"
-  },
-  "peerDependencies": {
-    "@storybook/react": "^6.1.15",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
-    "styled-components": "^5.2.1"
   },
   "engines": {
     "node": ">=14.0.0"

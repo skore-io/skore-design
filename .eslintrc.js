@@ -36,6 +36,7 @@ module.exports = {
         endOfLine: 'auto',
       },
     ],
+    'import/no-extraneous-dependencies': 'off',
     'react/prop-types': [2, { ignore: ['children'] }],
     'react/jsx-props-no-spreading': 'off',
     'react/prop-types': 0,

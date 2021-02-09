@@ -4,7 +4,7 @@ import SkoreLogo from './skore.svg';
 export default create({
   base: 'light',
   brandTitle: 'SkoreUI',
-  brandUrl: 'https://skore.io',
+  brandUrl: 'https://storybook.skore.design/',
   brandImage: SkoreLogo,
   colorPrimary: '#D4D7E1',
   colorSecondary: '#6F83A0',
