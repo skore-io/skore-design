@@ -1,3 +1,10 @@
+## 0.1.0 (2021-02-10)
+
+
+### Features 🚀
+
+* **decorator:** storybook decorator and removal of styler component ([70e7282](https://github.com/skore-io/skore-design/commit/70e7282702c9225d50b0f7a2a8aa506c57402e21))
+
 ### 0.0.7 (2021-02-10)
 
 
