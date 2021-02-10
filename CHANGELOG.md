@@ -1,3 +1,10 @@
+### 0.0.7 (2021-02-10)
+
+
+### Bug Fixes 🐛
+
+* **dist:** peerDependencies & ignores ([467ea66](https://github.com/skore-io/skore-design/commit/467ea66d571255386066d17a9d106ec76ab127cf))
+
 ### 0.0.6 (2021-02-09)
 
 ### 0.0.5 (2021-02-09)
