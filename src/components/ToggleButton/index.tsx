@@ -1,6 +1,5 @@
 import * as React from "react";
 import styled from "styled-components";
-import Styler from "../Styler";
 
 export interface ToggleButtonProps {
   /**
@@ -56,9 +55,5 @@ const Container = styled.li<ToggleButtonProps>`
 export const ToggleButton: React.FC<ToggleButtonProps> = (props) => {
   const { label } = props;
 
-  return (
-    <Styler>
-      <Container {...props}>{label}</Container>
-    </Styler>
-  );
+  return <Container {...props}>{label}</Container>;
 };
