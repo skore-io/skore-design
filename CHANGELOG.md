@@ -1,3 +1,10 @@
+### 0.1.1 (2021-02-10)
+
+
+### Bug Fixes 🐛
+
+* **ToggleButton:** style fix ([df6e330](https://github.com/skore-io/skore-design/commit/df6e3305900f2b008cf1c8bdb063a39b46330505))
+
 ## 0.1.0 (2021-02-10)
 
 
