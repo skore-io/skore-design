@@ -24,5 +24,5 @@ export const parameters = {
 }
 
 export const decorators = [
-  (Story) => <Container ><Story/></Container>
+  (Story) => <Container><Story/></Container>
 ];

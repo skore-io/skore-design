@@ -36,7 +36,7 @@ const Container = styled.li<ToggleButtonProps>`
   border-radius: 30px;
   color: white;
   cursor: pointer;
-  display: block;
+  display: inline-flex;
   font-size: 14px;
   font-weight: 600;
   overflow: hidden;
