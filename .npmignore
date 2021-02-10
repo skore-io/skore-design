@@ -11,12 +11,13 @@ design
 .editorconfig
 .eslintrc.js
 .release-it.js
+.nvmrc
 jest.config.js
 tsconfig.json
 package-lock.json
 README.md
 tsconfig.json
-tsconfig.production.json
+tsconfig.prod.json
 yarn.lock
 yarn-error.log
 
